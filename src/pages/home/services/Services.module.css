@@ -1,0 +1,57 @@
+.background {
+  max-width: 1470px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0 auto;
+  background-image: url('../../../images/services-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.backgroundLayer {
+  max-width: 1470px;
+  height: 100%;
+  background-color: rgba(29, 134, 240, 0.825);
+  padding: 75px 35px;
+}
+
+.servicesSection {
+  text-align: center;
+}
+
+.servicesSection h2 {
+  font-size: 42px;
+  margin-bottom: 80px;
+}
+
+/* display: flex;
+align-items: center;
+gap: 3 5px;
+width: 100%; */
+
+.servicesSection ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 3 5px;
+  width: 100%;
+}
+
+.servicesSection li {
+  padding: 15px;
+  min-height: 500px;
+}
+
+.servicesSection li h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.servicesSection li span {
+  margin-bottom: 30px;
+}
+
+.servicesSection li p {
+  font-size: 18px;
+}

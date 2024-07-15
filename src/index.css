@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('slick-carousel/slick/slick.css');
+@import url('slick-carousel/slick/slick-theme.css');
+*::after,
+*,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+section {
+  max-width: 1470px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0 auto;
+  /* padding-left: 35px;
+  padding-right: 35px; */
+}

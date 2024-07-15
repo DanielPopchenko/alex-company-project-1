@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 200;
+  background-color: #00000084;
+  padding: 10px 25px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.headerNavigation {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
