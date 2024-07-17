@@ -23,11 +23,11 @@ const WhoWeAre = () => {
           <h2>WHO WE ARE</h2>
           <div className={classes.contentText}>
             <h3>
-              At "MYCOMPANY" Cleaning, window cleaning is our specialty. It's our main
-              service (and we do it extensively) and we excel at it. Window cleaning is an
-              art that each of our technicians has been meticulously trained in. We
-              deliver the stunning sparkle of clean windows that brightens your home with
-              sunlight. We bring the light in.
+              At "Liberty Shine Services LLC" Cleaning, window cleaning is our specialty.
+              It's our main service (and we do it extensively) and we excel at it. Window
+              cleaning is an art that each of our technicians has been meticulously
+              trained in. We deliver the stunning sparkle of clean windows that brightens
+              your home with sunlight. We bring the light in.
             </h3>
           </div>
 

@@ -5,8 +5,16 @@ import { IoLogoCodepen } from 'react-icons/io';
 const Header = () => {
   return (
     <header className={classes.header}>
-      <div className="">
-        <IoLogoCodepen fontSize={40} />
+      <div className="flex">
+        <IoLogoCodepen fontSize={40} style={{ marginRight: 10 }} />{' '}
+        <span
+          style={{
+            fontWeight: 'normal',
+            fontSize: 20,
+          }}
+        >
+          Liberty Shine Services LLC
+        </span>
       </div>
       <div className="">
         <ul className={classes.headerNavigation}>

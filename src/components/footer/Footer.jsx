@@ -5,7 +5,7 @@ import { FaPhone } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <footer className={classes.footer}>
-      <p>Company name</p>
+      <p>Liberty Shine Services LLC</p>
       <div className={classes.phone}>
         <span>
           <FaPhone fill="green" fontSize={32} />

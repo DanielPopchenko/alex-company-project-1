@@ -5,6 +5,7 @@ import { FaHandsWash } from 'react-icons/fa';
 import { MdCleaningServices } from 'react-icons/md';
 import { MdOutlineFullscreen } from 'react-icons/md';
 import { MdConstruction } from 'react-icons/md';
+import { PiWashingMachine } from 'react-icons/pi';
 
 const ServicesList = () => {
   return (
@@ -74,6 +75,19 @@ const ServicesList = () => {
           specialize in windows re-screening. Our experienced team provides expert repairs
           using high-quality materials. Enjoy improved functionality and aesthetics with
           our meticulous attention to detail, ensuring your screens are as good as new.
+        </p>
+      </li>
+      <li>
+        <span>
+          <PiWashingMachine style={{ fontSize: 70, marginBottom: 25 }} />
+        </span>
+        <h3>“DRYER VENT CLEANING”</h3>
+        <p>
+          Dryer vent cleaning services involve the thorough removal of lint and debris
+          from your dryer's vent system. This process enhances dryer efficiency, reduces
+          drying times, and significantly lowers the risk of fires caused by lint buildup.
+          Regular cleaning ensures better airflow, prolongs dryer lifespan, and promotes a
+          safer home environment.
         </p>
       </li>
     </ul>
