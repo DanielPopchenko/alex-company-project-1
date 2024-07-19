@@ -5,7 +5,7 @@ import Form from './Form';
 
 const ContactUsForm = () => {
   return (
-    <section className={classes.formSection}>
+    <section className={classes.formSection} id="callUs">
       <div className={classes.contentContainer}>
         {/* form */}
         <div className={classes.formBox}>

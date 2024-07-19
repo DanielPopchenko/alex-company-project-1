@@ -5,7 +5,7 @@ import ServicesList from './ServicesList';
 
 const Services = () => {
   return (
-    <section className={classes.servicesSection}>
+    <section className={classes.servicesSection} id="services">
       <Layout
         outerDivClasses={classes.background}
         innerDivClasses={classes.backgroundLayer}

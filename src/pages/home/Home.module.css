@@ -1,26 +1,25 @@
 .background {
-    max-width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    margin: 0 auto;
-    background-image: url('../../images/background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
+  max-width: 100%;
+  height: 100vh;
+  /* overflow-x: hidden; */
+  margin: 0 auto;
+  background-image: url('../../images/background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .backgroundLayer {
-    max-width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.663);
-    padding: 75px 35px;
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.663);
+  padding: 75px 35px;
 }
 
 .sectionContent {
-    text-align: center;
-    margin-top: 200px;
+  text-align: center;
+  margin-top: 140px;
 }
-
 
 /* .sectionContent h1 {
   font-size: 32px;
@@ -28,30 +27,30 @@
 } */
 
 .buttonsContainer {
-    margin-top: 80px;
-    gap: 15px;
+  margin-top: 80px;
+  gap: 15px;
 }
 
 .button {
-    cursor: pointer;
-    padding: 12px 22px;
-    border: 1px solid #fff;
-    background-color: transparent;
-    color: #fff;
+  cursor: pointer;
+  padding: 12px 22px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
 }
 
 .button:hover {
-    transition: all ease-in 0.3s;
-    background-color: #ffffffc9;
-    color: #111;
+  transition: all ease-in 0.3s;
+  background-color: #ffffffc9;
+  color: #111;
 }
 
 .buttonPrimary {
-    background-color: #fff;
-    color: #111;
+  background-color: #fff;
+  color: #111;
 }
 
 .buttonPrimary:hover {
-    background-color: #111111af;
-    color: #fff;
+  background-color: #111111af;
+  color: #fff;
 }

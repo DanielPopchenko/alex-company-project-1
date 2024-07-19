@@ -17,7 +17,7 @@ function MySlider() {
       <Slider {...settings}>
         <div className={classes.slide}>
           <p>SERVING MANATEE AND SARASOTA COUNTY</p>
-          <h1 className={classes.sliderTitle}>PROFESSI0NAL WINDOW CLEANING</h1>
+          <h1 className={classes.sliderTitle}>PROFESSIONAL WINDOW CLEANING</h1>
         </div>
         <div className={classes.slide}>
           <p>WE LIKE TO SEE YOUR WINDOWS SHINE</p>

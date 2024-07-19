@@ -52,7 +52,7 @@ const Form = () => {
 
           <Input
             type="text"
-            placeholder="10-digit phone"
+            placeholder="Example: 9412343789"
             required
             {...register('phone', { required: true, maxLength: 10 })}
           />

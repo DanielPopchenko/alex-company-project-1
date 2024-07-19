@@ -19,10 +19,13 @@ const Home = () => {
           <div className={classes.sectionContent}>
             <MySlider />
             <div className={`flex j-center ${classes.buttonsContainer}`}>
-              <button className={`${classes.button} ${classes.buttonPrimary}`}>
+              <a href="#callUs" className={`${classes.button} ${classes.buttonPrimary}`}>
                 GET A FREE QUOTE
-              </button>
-              <button className={classes.button}>GIVE US A FREE CALL</button>
+              </a>
+              {/* PHONE NUMBER SHOUL BE CHANGED*/}
+              <a href="tel:(123) 123-123-1234" className={classes.button}>
+                GIVE US A FREE CALL
+              </a>
             </div>
           </div>
         </section>

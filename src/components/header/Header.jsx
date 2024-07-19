@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Header.module.css';
 import { IoLogoCodepen } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -18,12 +19,22 @@ const Header = () => {
       </div>
       <div className="">
         <ul className={classes.headerNavigation}>
-          <li>GET A QUOTE</li>
-          <li>CALL US</li>
-          <li>SERVICES</li>
-          <li>PORTFOLIO</li>
-          <li>FAQ`S</li>
-          <li>REVIEWS</li>
+          <Link to="/">HOME</Link>
+          {/* <li>
+            <a href="/#callUs">CALL US</a>
+          </li> */}
+          <li>
+            <Link to="/services">SERVICES</Link>
+          </li>
+          <li>
+            <Link to="/portfolio">PORTFOLIO</Link>
+          </li>
+          <li>
+            <Link to="/questions">FAQ`S</Link>
+          </li>
+          <li>
+            <Link to="/reviews">REVIEWS</Link>
+          </li>
         </ul>
       </div>
     </header>

@@ -11,10 +11,10 @@ const WhoWeAre = () => {
     <section className={`${classes.whoWeAreSection}`}>
       <div className={`${classes.container}`}>
         <div className={`${classes.iconsContainer} flex`}>
-          <a href="#!">
+          <a href="https://www.instagram.com/daniel_popchenko/">
             <FaInstagram fill="#4b66bd" fontSize={43} />
           </a>
-          <a href="#!">
+          <a href="https://www.facebook.com/profile.php?id=100072242174679">
             <FaFacebook fill="#4b66bd" fontSize={43} />
           </a>
         </div>
@@ -23,11 +23,11 @@ const WhoWeAre = () => {
           <h2>WHO WE ARE</h2>
           <div className={classes.contentText}>
             <h3>
-              At "Liberty Shine Services LLC" Cleaning, window cleaning is our specialty.
-              It's our main service (and we do it extensively) and we excel at it. Window
-              cleaning is an art that each of our technicians has been meticulously
-              trained in. We deliver the stunning sparkle of clean windows that brightens
-              your home with sunlight. We bring the light in.
+              At "Liberty Shine Services LLC", window cleaning is our specialty. It's our
+              main service (and we do it extensively) and we excel at it. Window cleaning
+              is an art that each of our technicians has been meticulously trained in. We
+              deliver the stunning sparkle of clean windows that brightens your home with
+              sunlight. We bring the light in.
             </h3>
           </div>
 

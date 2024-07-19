@@ -1,10 +1,12 @@
 import React from 'react';
-import classes from './App.module.css';
 import Header from './components/header/Header';
-import MySlider from './ui/slider/Slider';
 import { Route, Routes } from 'react-router-dom';
-import Home from './pages/home/Home';
-import NotFound from './pages/notFound/NotFound';
+import Home from './pages/home/HomePage';
+import NotFound from './pages/notFound/NotFoundPage';
+import Portfolio from './pages/portfolio/PortfolioPage';
+import Questions from './pages/questions/QuestionsPage';
+import Reviews from './pages/reviews/ReviewsPage';
+import Services from './pages/home/services/Services';
 
 // ! company name --- no
 // ! tel number --- no
@@ -17,6 +19,10 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/questions" element={<Questions />} />
+        <Route path="/reviews" element={<Reviews />} />
         <Route path="*" element={<NotFound />} /> // ! Styles
       </Routes>
     </>
