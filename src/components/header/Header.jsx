@@ -1,39 +1,55 @@
 import React from 'react';
 import classes from './Header.module.css';
-import { IoLogoCodepen } from 'react-icons/io';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className={classes.header}>
       <div className="flex">
-        <IoLogoCodepen fontSize={40} style={{ marginRight: 10 }} />{' '}
-        <span
-          style={{
-            fontWeight: 'normal',
-            fontSize: 20,
-          }}
-        >
-          Liberty Shine Services LLC
-        </span>
+        {/* <IoLogoCodepen fontSize={40} style={{ marginRight: 10 }} />{' '} */}
+        <Link className={classes.logo} to="/">
+          LIBERTY SHINE SERVICES
+        </Link>
       </div>
       <div className="">
         <ul className={classes.headerNavigation}>
-          <Link to="/">HOME</Link>
-          {/* <li>
-            <a href="/#callUs">CALL US</a>
-          </li> */}
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? `${classes.active}` : '')}
+          >
+            HOME
+          </NavLink>
           <li>
-            <Link to="/services">SERVICES</Link>
+            <NavLink
+              to="/services"
+              className={({ isActive }) => (isActive ? `${classes.active}` : '')}
+            >
+              SERVICES
+            </NavLink>
           </li>
           <li>
-            <Link to="/portfolio">PORTFOLIO</Link>
+            <NavLink
+              to="/portfolio"
+              className={({ isActive }) => (isActive ? `${classes.active}` : '')}
+            >
+              PORTFOLIO
+            </NavLink>
           </li>
           <li>
-            <Link to="/questions">FAQ`S</Link>
+            <NavLink
+              to="/questions"
+              className={({ isActive }) => (isActive ? `${classes.active}` : '')}
+            >
+              FAQ`S
+            </NavLink>
           </li>
           <li>
-            <Link to="/reviews">REVIEWS</Link>
+            <NavLink
+              to="/reviews"
+              className={({ isActive }) => (isActive ? `${classes.active}` : '')}
+            >
+              REVIEWS
+            </NavLink>
           </li>
         </ul>
       </div>

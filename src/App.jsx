@@ -6,7 +6,8 @@ import NotFound from './pages/notFound/NotFoundPage';
 import Portfolio from './pages/portfolio/PortfolioPage';
 import Questions from './pages/questions/QuestionsPage';
 import Reviews from './pages/reviews/ReviewsPage';
-import Services from './pages/home/services/Services';
+import ServicesPage from './pages/services/ServicesPage';
+import Footer from './components/footer/Footer';
 
 // ! company name --- no
 // ! tel number --- no
@@ -19,12 +20,13 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={<ServicesPage />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/questions" element={<Questions />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="*" element={<NotFound />} /> // ! Styles
       </Routes>
+      <Footer />
     </>
   );
 };

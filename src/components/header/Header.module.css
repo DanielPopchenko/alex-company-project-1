@@ -1,17 +1,32 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-weight: 200;
-  background-color: #00000084;
-  padding: 10px 25px;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 200;
+    background-color: #00000084;
+    padding: 20px 70px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 .headerNavigation {
-  display: flex;
-  align-items: center;
-  gap: 29px;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.headerNavigation a {
+    transition: all ease-in 0.2s;
+}
+
+.active {
+    color: rgb(243, 189, 28);
+}
+
+.logo {
+    font-size: 20;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(243, 189, 28);
 }

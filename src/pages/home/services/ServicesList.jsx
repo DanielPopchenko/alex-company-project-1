@@ -16,7 +16,7 @@ const ServicesList = () => {
             <FaHandsWash style={{ fontSize: 70, marginBottom: 25 }} />
           </span>
 
-          <h3>“GUTTER CLEANING” </h3>
+          <h3>GUTTER CLEANING </h3>
           <p>
             Experience hassle-free gutter cleaning with our professional services tailored
             for residential, commercial, and new construction properties. Our skilled team
@@ -33,14 +33,13 @@ const ServicesList = () => {
             <GiFamilyHouse style={{ fontSize: 70, marginBottom: 25 }} />
           </span>
 
-          <h3>“GUTTER CLEANING” </h3>
+          <h3>WINDOW CLEANING </h3>
           <p>
-            Experience hassle-free gutter cleaning with our professional services tailored
-            for residential, commercial, and new construction properties. Our skilled team
-            uses advanced equipment and techniques to efficiently remove debris and ensure
-            your gutters operate smoothly. Protect your investment and maintain curb
-            appeal with our reliable gutter cleaning solutions, backed by options for
-            regular maintenance contracts to keep your property in top shape.”
+            From homes to commercial buildings and new constructions, our professional
+            window cleaning services cover it all. With a dedicated team of expert
+            technicians equipped with advanced tools and techniques, we guarantee superior
+            results every time. Plus, enjoy exclusive discounts on regular window cleaning
+            contracts, ensuring your windows receive the care they deserve, consistently.
           </p>
         </div>
       </li>
@@ -49,7 +48,7 @@ const ServicesList = () => {
           <span>
             <MdCleaningServices style={{ fontSize: 70, marginBottom: 25 }} />
           </span>
-          <h3>“PRESSURE WASHING”</h3>
+          <h3>PRESSURE WASHING</h3>
           <p>
             Elevate your property's cleanliness and appeal with our expert pressure
             washing services. Whether for residential, commercial, or new construction
@@ -65,7 +64,7 @@ const ServicesList = () => {
           <span>
             <MdConstruction style={{ fontSize: 70, marginBottom: 25 }} />
           </span>
-          <h3>“NEW CONSTRUCTION”</h3>
+          <h3>NEW CONSTRUCTION</h3>
           <p>
             Transform the look of your new construction with our expert window cleaning
             services. Our skilled team utilizes cutting-edge methods and precision tools
@@ -80,7 +79,7 @@ const ServicesList = () => {
           <span>
             <MdOutlineFullscreen style={{ fontSize: 70, marginBottom: 25 }} />
           </span>
-          <h3>“SCREEN REPAIR”</h3>
+          <h3>SCREEN REPAIR</h3>
           <p>
             Restore your home or business with our dependable screen repair services. We
             specialize in windows re-screening. Our experienced team provides expert
@@ -95,7 +94,7 @@ const ServicesList = () => {
           <span>
             <PiWashingMachine style={{ fontSize: 70, marginBottom: 25 }} />
           </span>
-          <h3>“DRYER VENT CLEANING”</h3>
+          <h3>DRYER VENT CLEANING</h3>
           <p>
             Dryer vent cleaning services involve the thorough removal of lint and debris
             from your dryer's vent system. This process enhances dryer efficiency, reduces

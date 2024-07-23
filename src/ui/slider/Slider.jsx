@@ -16,7 +16,7 @@ function MySlider() {
     <div className={classes.sliderContainer}>
       <Slider {...settings}>
         <div className={classes.slide}>
-          <p>SERVING MANATEE AND SARASOTA COUNTY</p>
+          <p>SERVING MANATEE AND SARASOTA COUNTIES</p>
           <h1 className={classes.sliderTitle}>PROFESSIONAL WINDOW CLEANING</h1>
         </div>
         <div className={classes.slide}>
@@ -24,6 +24,14 @@ function MySlider() {
           <h1 className={classes.sliderTitle}>
             RESIDENTIAL AND COMMERCIAL WINDOW CLEANING
           </h1>
+        </div>
+        <div className={classes.slide}>
+          <p>DELIVERS TRUSTED REPAIR SERVICES</p>
+          <h1 className={classes.sliderTitle}>SCREEN REPAIR SERVICES</h1>
+        </div>
+        <div className={classes.slide}>
+          <p>DON’T SRESS WE’LL HANDLE THE MESS.</p>
+          <h1 className={classes.sliderTitle}>GUTTER CLEANING SERVICES</h1>
         </div>
       </Slider>
     </div>
