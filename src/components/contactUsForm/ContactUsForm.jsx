@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './ContactUsForm.module.css';
 import { FaPhone } from 'react-icons/fa6';
 import Form from './Form';
-import Form2Var from './Form2Var';
 
 const ContactUsForm = () => {
   return (
@@ -12,21 +11,23 @@ const ContactUsForm = () => {
         <div className={classes.formBox}>
           <h2>GET A FREE QUOTE</h2>
           <Form />
-          <Form2Var />
+          {/* <Form2Var /> */}
         </div>
 
         {/* phone box */}
         <div className={classes.phoneBox}>
           <div className="">
-            <h2>FEEL FREE TO CALL US</h2>
+            <h2>FEEL FREE TO CALL US.</h2>
+            <span className={classes.hearSoonText}>We’d love to hear from you.</span>
           </div>
           <p>
             <span>
-              <FaPhone fill="green" fontSize={32} />
+              <FaPhone fill="#54c036" fontSize={32} />
             </span>{' '}
-            (123) 123-123-1234
+            <a style={{ color: '#111' }} href="tel:(123) 123-123-1234">
+              (123) 123-123-1234
+            </a>
           </p>
-          <span className={classes.hearSoonText}>We`d love to hear from you</span>
         </div>
       </div>
     </section>

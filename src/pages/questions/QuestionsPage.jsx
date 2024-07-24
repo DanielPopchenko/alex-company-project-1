@@ -7,7 +7,7 @@ const QuestionsPage = () => {
     <section className={classes.questionsPage}>
       <div className={classes.titleContainer}>
         <div className={classes.backgroundLayer}>
-          <h2>FAQ`S</h2>
+          <h2>FAQ’S</h2>
         </div>
       </div>
 

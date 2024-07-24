@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Header.module.css';
 import { NavLink, Link } from 'react-router-dom';
-
+import { FaLocationDot } from 'react-icons/fa6';
 const Header = () => {
   return (
     <header className={classes.header}>
@@ -11,6 +11,27 @@ const Header = () => {
           LIBERTY SHINE SERVICES
         </Link>
       </div>
+
+      <div className="flex">
+        {/* <IoLogoCodepen fontSize={40} style={{ marginRight: 10 }} />{' '} */}
+        <span
+          className="flex"
+          style={{
+            fontWeight: 'bold',
+            color: '#fff',
+          }}
+        >
+          <FaLocationDot
+            fontSize={25}
+            style={{
+              marginRight: 10,
+            }}
+            fill="rgb(243, 189, 28)"
+          />{' '}
+          MANATEE, SARASOTA & HILLSBOROUGH COUNTIES
+        </span>
+      </div>
+
       <div className="">
         <ul className={classes.headerNavigation}>
           <NavLink
@@ -40,16 +61,16 @@ const Header = () => {
               to="/questions"
               className={({ isActive }) => (isActive ? `${classes.active}` : '')}
             >
-              FAQ`S
+              FAQ’S
             </NavLink>
           </li>
           <li>
-            <NavLink
+            {/* <NavLink
               to="/reviews"
               className={({ isActive }) => (isActive ? `${classes.active}` : '')}
             >
               REVIEWS
-            </NavLink>
+            </NavLink> */}
           </li>
         </ul>
       </div>

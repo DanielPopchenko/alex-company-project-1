@@ -22,8 +22,8 @@
     margin-right: 10px;
 }
 
-.logo {
-    font-size: 20;
+.logoContainer .logo {
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     color: rgb(243, 189, 28);
