@@ -117,14 +117,14 @@
 .successMessage {
     font-size: 40px;
     font-weight: bold;
-    color: rgb(243, 189, 28);
+    color: #54c036;
     margin-top: 100px;
 }
 
 .successMessage span {
     font-size: 40px;
     font-weight: lighter;
-    color: rgb(243, 189, 28);
+    color: #54c036;
     margin-top: 20px;
 }
 

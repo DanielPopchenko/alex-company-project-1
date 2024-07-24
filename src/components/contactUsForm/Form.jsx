@@ -16,7 +16,7 @@ const Form = () => {
     return (
       <p className={classes.successMessage}>
         Thank you, <br />
-        for submitting your data. <br /> <span>We well reach out to you soon.</span>
+        for submitting your data. <br /> <span>We will reach out to you soon.</span>
       </p>
     );
   }
