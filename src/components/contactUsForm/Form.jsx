@@ -27,7 +27,7 @@ const Form = () => {
           <Input
             type="text"
             placeholder="First name"
-            {...register('firstName', { required: true, maxLength: 15 })}
+            {...register('firstName', { required: true, maxLength: 15, minLength: 1 })}
           />
         </label>
 
@@ -37,7 +37,7 @@ const Form = () => {
             type="text"
             placeholder="Last name"
             required
-            {...register('lastName', { required: true, maxLength: 20 })}
+            {...register('lastName', { required: true, maxLength: 20, minLength: 1 })}
           />
         </label>
       </div>
@@ -54,7 +54,12 @@ const Form = () => {
             type="text"
             placeholder="Example: 9412343789"
             required
-            {...register('phone', { required: true, maxLength: 10 })}
+            {...register('phone', {
+              required: true,
+              maxLength: 10,
+              minLength: 10,
+              pattern: /^\d{10}$/,
+            })}
           />
         </label>
 
@@ -71,7 +76,8 @@ const Form = () => {
             required
             {...register('email', {
               required: true,
-              pattern: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+              pattern:
+                /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
             })}
           />
         </label>
@@ -81,12 +87,17 @@ const Form = () => {
       {/* full width adress input */}
       <div className="">
         <label className={classes.fullWidthInput}>
-          <span>Adress</span>
+          {errors.adress ? (
+            <span style={{ color: 'red' }}>Please check your adress</span>
+          ) : (
+            <span>Adress</span>
+          )}
+
           <Input
             type="text"
             placeholder="Adress"
             required
-            {...register('adress', { required: true })}
+            {...register('adress', { required: true, minLength: 10 })}
           />
         </label>
       </div>
@@ -98,16 +109,20 @@ const Form = () => {
             type="text"
             placeholder="City"
             required
-            {...register('city', { required: true })}
+            {...register('city', { required: true, minLength: 4 })}
           />
         </label>
         <label>
-          <span>Zip code</span>
+          {errors.zip ? (
+            <span style={{ color: 'red' }}>Please check your zip code</span>
+          ) : (
+            <span>Zip code</span>
+          )}
           <Input
             type="text"
             placeholder="ZipCode"
             required
-            {...register('zip', { required: true })}
+            {...register('zip', { required: true, minLength: 5, maxLength: 6 })}
           />
         </label>
       </div>

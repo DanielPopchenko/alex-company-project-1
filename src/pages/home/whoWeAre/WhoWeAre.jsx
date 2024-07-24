@@ -11,7 +11,7 @@ const WhoWeAre = () => {
     <section className={`${classes.whoWeAreSection}`}>
       <div className={`${classes.container}`}>
         <div className={`${classes.iconsContainer} flex`}>
-          <a href="https://www.instagram.com/daniel_popchenko/">
+          <a href="https://www.instagram.com/libertyshineservices/?fbclid=IwZXh0bgNhZW0CMTEAAR0e_El-4ggXz4rkkUm8TvNFXrtfXJwm7o4TfUuPRCgo4tvF1pL2SFpgOyE_aem_zxt0HetOGovdE7LI0ctj-Q">
             <FaInstagram fill="#4b66bd" fontSize={43} />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100072242174679">

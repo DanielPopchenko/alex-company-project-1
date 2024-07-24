@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './ContactUsForm.module.css';
 import { FaPhone } from 'react-icons/fa6';
 import Form from './Form';
+import Form2Var from './Form2Var';
 
 const ContactUsForm = () => {
   return (
@@ -11,6 +12,7 @@ const ContactUsForm = () => {
         <div className={classes.formBox}>
           <h2>GET A FREE QUOTE</h2>
           <Form />
+          <Form2Var />
         </div>
 
         {/* phone box */}
