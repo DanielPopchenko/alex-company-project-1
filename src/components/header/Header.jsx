@@ -1,8 +1,9 @@
 import React from 'react';
 import classes from './Header.module.css';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import { FaLocationDot } from 'react-icons/fa6';
 const Header = () => {
+  const { pathname } = useLocation();
   return (
     <header className={classes.header}>
       <div className="flex">
@@ -40,14 +41,14 @@ const Header = () => {
           >
             HOME
           </NavLink>
-          <li>
-            <NavLink
-              to="/services"
-              className={({ isActive }) => (isActive ? `${classes.active}` : '')}
-            >
-              SERVICES
-            </NavLink>
-          </li>
+
+          {pathname === '/' && (
+            <li>
+              <a href="#services" className={classes.servicesLink}>
+                SERVICES
+              </a>
+            </li>
+          )}
           <li>
             <NavLink
               to="/portfolio"

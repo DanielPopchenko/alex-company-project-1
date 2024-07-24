@@ -30,7 +30,7 @@ function MySlider() {
           <h1 className={classes.sliderTitle}>SCREEN REPAIR SERVICES</h1>
         </div>
         <div className={classes.slide}>
-          <p>DON’T SRESS WE’LL HANDLE THE MESS.</p>
+          <p>DON’T SRESS WE’LL HANDLE THE MESS</p>
           <h1 className={classes.sliderTitle}>GUTTER CLEANING SERVICES</h1>
         </div>
       </Slider>

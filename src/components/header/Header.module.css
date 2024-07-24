@@ -30,3 +30,7 @@
     cursor: pointer;
     color: rgb(243, 189, 28);
 }
+
+.servicesLink:visited {
+    color: rgb(243, 189, 28);
+}
