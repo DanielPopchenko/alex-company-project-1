@@ -1,54 +1,55 @@
 .whoWeAreSection {
-  padding: 75px 70px;
+    padding: 75px 70px;
+    width: 100%;
 }
 
 .container {
-  /* margin-top: 80px; */
-  color: #111;
+    /* margin-top: 80px; */
+    color: #111;
 }
 
 .iconsContainer {
-  justify-content: center;
-  gap: 40px;
+    justify-content: center;
+    gap: 40px;
 }
 
 .content {
-  margin-top: 35px;
-  text-align: center;
+    margin-top: 55px;
+    text-align: center;
 }
 
 .content h2 {
-  margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .contentText {
-  text-align: center;
-  width: 550px;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contentText h3 {
-  font-weight: 200;
+    font-weight: 200;
 }
 
 .contentBlocks {
-  margin-top: 50px;
-  font-weight: 300;
+    margin-top: 75px;
+    font-weight: 300;
 }
 
 .contentBlocksList {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  gap: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
 }
 
 .blocksListItem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 33.3%;
-  font-size: 20px;
-  height: 251px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+    font-size: 20px;
+    min-height: 251px;
 }

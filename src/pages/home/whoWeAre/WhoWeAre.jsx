@@ -5,6 +5,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { IoCheckmarkDoneSharp } from 'react-icons/io5';
 import { FaRegListAlt } from 'react-icons/fa';
 import { FaLeaf } from 'react-icons/fa';
+import { FaGoogle } from 'react-icons/fa';
 
 const WhoWeAre = () => {
   return (
@@ -17,6 +18,9 @@ const WhoWeAre = () => {
           <a href="https://www.facebook.com/profile.php?id=100072242174679">
             <FaFacebook fill="#4b66bd" fontSize={43} />
           </a>
+          <a href="https://maps.app.goo.gl/fo4wGN5DzerZ34fx9">
+            <FaGoogle fill="#4b66bd" fontSize={43} />
+          </a>
         </div>
 
         <div className={classes.content}>
@@ -24,10 +28,10 @@ const WhoWeAre = () => {
           <div className={classes.contentText}>
             <h3>
               At "Liberty Shine Services LLC", window cleaning is our specialty. It's our
-              main service (and we do it extensively) and we excel at it. Window cleaning
-              is an art that each of our technicians has been meticulously trained in. We
-              deliver the stunning sparkle of clean windows that brightens your home with
-              sunlight. We bring the light in.
+              main service and we excel at it. Window cleaning is an art that each of our
+              technicians has been meticulously trained in. We deliver the stunning
+              sparkle of clean windows that brightens your home with sunlight. We bring
+              the light in.
             </h3>
           </div>
 

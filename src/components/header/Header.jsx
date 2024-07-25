@@ -42,13 +42,16 @@ const Header = () => {
             HOME
           </NavLink>
 
-          {pathname === '/' && (
-            <li>
-              <a href="#services" className={classes.servicesLink}>
-                SERVICES
-              </a>
-            </li>
-          )}
+          {/* {pathname === '/' && ( */}
+          <li>
+            <NavLink
+              to="/services"
+              className={({ isActive }) => (isActive ? `${classes.active}` : '')}
+            >
+              SERVICES
+            </NavLink>
+          </li>
+          {/* )} */}
           <li>
             <NavLink
               to="/portfolio"

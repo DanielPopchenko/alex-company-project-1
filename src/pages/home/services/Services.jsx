@@ -11,6 +11,7 @@ const Services = () => {
         innerDivClasses={classes.backgroundLayer}
       >
         <h2>OUR SERVICES</h2>
+
         <ServicesList />
       </Layout>
     </section>

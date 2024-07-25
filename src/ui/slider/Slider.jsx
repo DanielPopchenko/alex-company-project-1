@@ -6,11 +6,44 @@ function MySlider() {
   const settings = {
     dots: true,
     infinite: true,
-    // speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    appendDots: (dots) => (
+      <div
+        style={{
+          backgroundColor: 'transparent',
+        }}
+      >
+        <ul
+          style={{
+            marginTop: '90px',
+            display: 'flex',
+            justifyContent: 'center',
+            gap: 10,
+          }}
+        >
+          {' '}
+          {dots}{' '}
+        </ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#fff',
+          width: '11px',
+          height: '11px',
+          color: '#fff',
+          border: '1px solid #fff',
+          borderRadius: '50%',
+        }}
+      ></div>
+    ),
   };
   return (
     <div className={classes.sliderContainer}>
